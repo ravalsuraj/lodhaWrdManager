@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/surajraval/GitHub/lodha_v3_4/logs/.audit.json",
+    "files": [
+        {
+            "date": 1536646718202,
+            "name": "/Users/surajraval/GitHub/lodha_v3_4/logs/node_trace.log.2018-09-11",
+            "hash": "510ac243ee09e89f344e7dbaadcd8b39"
+        }
+    ]
+}
