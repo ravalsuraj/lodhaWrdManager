@@ -30,7 +30,7 @@ console.log("adding a log");
 console.log("added second logs");
 app.use("/", webRouter);
 app.use("/api", apiRouter);
-
+console.log("log by satish");
 app.listen(PORT, () => {
   logger.log("info", "Lodha Web App listening on port " + PORT);
 });
