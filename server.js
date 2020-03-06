@@ -27,6 +27,7 @@ app.use(morgan("myformat", { stream: { write: message => logger.info(message.tri
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 console.log("adding a log");
+console.log("added second logs");
 app.use("/", webRouter);
 app.use("/api", apiRouter);
 
