@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 console.log("adding a log");
 console.log("added second logs");
-console.log("added by Suraj");
+console.log("this is for outbound calls");
 app.use("/", webRouter);
 app.use("/api", apiRouter);
 console.log("log by satish");
